@@ -43,7 +43,7 @@ async function archiveOlderThan(folder, toDate) {
 async function autoArchive() {
 	let accounts = await browser.accounts.list(true);
 	let toDate = new Date();
-	toDate.setMonth(toDate.getMonth() - 4);
+	toDate.setMonth(toDate.getMonth() - 3);
 
 	for await (const account of accounts) {
 		if(account.type != "none"){
