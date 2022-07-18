@@ -1,9 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Archive 3 Month",
     "description": "Archive messages that are older than 3 months in inbox and sent folder",
-    "description": "Your basic Hello World extension!",
-    "version": "1.0",
+    "version": "0.1",
     "author": "Niklas Larsson",
     "applications": {
         "gecko": {
