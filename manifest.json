@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Archive 3 Month",
     "description": "Archive messages that are older than 3 months in inbox and sent folder",
     "version": "0.1",
