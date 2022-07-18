@@ -29,6 +29,8 @@ async function archiveOlderThan(folder, toDate) {
 	const page = await browser.messages.query({
 		folder: folder,
 		toDate: toDate,
+		unread: false,
+		flagged: false
 	});
 
 	for await (const messages of walkList(page)) {

@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Archive 3 Month",
     "description": "Archive messages that are older than 3 months in inbox and sent folder",
-    "version": "0.1",
+    "version": "0.2",
     "author": "Niklas Larsson",
     "applications": {
         "gecko": {
