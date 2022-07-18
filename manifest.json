@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Archive 3 Month",
+    "description": "Archive messages that are older than 3 months in inbox and sent folder",
+    "description": "Your basic Hello World extension!",
+    "version": "1.0",
+    "author": "Niklas Larsson",
+    "applications": {
+        "gecko": {
+            "id": "archive3month.tb@tese.se",
+            "strict_min_version": "78.0"
+        }
+    },
+    "permissions": [
+        "messagesRead",
+        "accountsRead",
+        "messagesMove"
+    ],
+    "background": {
+        "page": "background.html"
+    }
+}
